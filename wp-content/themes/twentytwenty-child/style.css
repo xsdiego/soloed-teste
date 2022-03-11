@@ -1,0 +1,267 @@
+/*
+Theme Name: Teste SoloEd
+Description: Child desenvolvido para o teste da SoloEd visando a vaga de Desenvolvedor PHP WordPress.
+Author: Diego Xavier Sousa
+Author URI: https://github.com/xsdiego
+
+Template: twentytwenty
+Version: 1.0
+Text Domain: twentytwenty-child
+*/
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+	background: #F9F9F9;
+	line-height: 1;
+	font-family: 'DM Sans', sans-serif;
+	font-size:  18px;
+	-webkit-text-size-adjust:100%;
+	width: 100%;
+	text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-rendering: optimizeLegibility;
+	font-family: 'Poppins', sans-serif;
+	color: #2F2E41;
+}
+
+.soloed-title {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+}
+
+h2 {
+	margin: 0 !important;
+}
+
+.soloed-text {
+	font-family: 'DM Sans', sans-serif;
+	color: #767676;
+	line-height: 24px;
+}
+
+header {
+	width: 100%;
+	position: relative;
+	border-bottom: #E4E4E4 solid 1px;
+}
+
+.header-inner {
+	padding: 0;
+	margin:  0 auto;
+}
+
+#menu-landing {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.primary-menu li {
+	float: left;
+	display: inline;
+}
+
+/* Início do estilo dos itens dos menus desktop e mobile */
+ul.primary-menu li a {
+	font-size: 16px !important;
+	text-decoration: none !important;
+	color: #2F2E41 !important;
+	padding: 22px 0;
+	border-bottom: transparent solid 2px !important;
+}
+
+ul.primary-menu li a:hover {
+	color: #6C63FF !important;
+	font-weight: 700 !important;
+	border-bottom: #6C63FF solid 2px !important;
+}
+
+ul.modal-menu li a {
+	font-size: 16px !important;
+	text-decoration: none !important;
+	color: #2F2E41 !important;
+	border-bottom: transparent solid 2px !important;
+}
+
+ul.modal-menu li a:hover {
+	color: #6C63FF !important;
+	font-weight: 700 !important;
+	border-bottom: #6C63FF solid 2px !important;
+}
+/* Fim do estilo dos itens dos menus desktop e mobile */
+
+.soloed-image img {
+	width: 500px;
+	box-shadow: 30px -30px #CFCCE0;
+	border-radius: 3px;
+}
+
+.soloed-button {
+	display: flex;
+	background-color: #57B894;
+	border-radius: 4px;
+	font-family: 'DM Sans', sans-serif;
+	color: #F9F9F9;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 21px;
+	padding: 14px 32px;
+}
+
+#soloed-sobre {
+	padding: 100px 0 100px 0;
+	background-color: #FFFFFF;
+}
+
+.soloed-separator {
+	border-top: 1px solid linear-gradient(270deg, #6C63FF 0%, #CFCCE0 100%);
+}
+
+#soloed-servicos {
+	padding: 100px 0 30px 0;
+}
+
+.servicos-title {
+	text-align: center;
+}
+
+.servicos-subtitle {
+	text-align: center;
+	padding: 0 50px;
+	margin-bottom: 20px;
+}
+
+.servicos-grid {
+	margin-bottom: 80px;
+}
+
+/* Início das modificações de CSS do plugin de Serviços para adaptar ao layout proposto */
+.wp-medium-4 {
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+	background: #F9F9F9;
+	border-bottom: 4px solid #6C63FF;
+	width: 350px;
+	margin: 0 15px;
+}
+
+.entry-title {
+	font-size: 24px;
+}
+
+.sub-content {
+	font-family: 'DM Sans', sans-serif;
+	color: #767676;
+	line-height: 16px;
+	line-height: 21px;
+}
+/* Fim das modificações de CSS do plugin de Serviços para adaptar ao layout proposto */
+
+/* Início estilo depoimentos */
+
+.apct-testim-wrapper #template-1 .apct-testimonial-content:before {
+	color: #6C63FF;
+}
+
+.apct-testimonial-image {
+	border:  none !important;
+}
+
+.apct-testimonial-content, .apct_testimonial_upper-right {
+	font-family: 'DM Sans', sans-serif !important;
+	color: #767676;
+}
+
+.bx-viewport {
+	box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
+	background: #FFF;
+	border-bottom: 4px solid #6C63FF;
+}
+
+/* Fim estilo depoimentos */
+
+/* Adaptações do footer */
+.footer-nav-widgets-wrapper, #site-footer {
+	background-color: #2F2E41;
+}
+
+.footer-widgets-outer-wrapper {
+	padding: 0 !important;
+}
+
+.footer-inner p {
+	font-family: 'DM Sans', sans-serif !important;
+	color: #FFF;
+	font-size: 20px !important;
+}
+
+.footer-links {
+	padding: 80px 0;	
+}
+
+.footer-a {
+	font-size: 16px !important;
+	text-decoration: none;
+	color: #FFF !important;
+}
+
+#noptin-form-1 {
+	margin-top: 30px !important;
+}
+
+.noptin-label {
+	color: #FFF;
+}
+
+.noptin-form-submit {
+	background-color: #57B894 !important;
+	border-radius: 4px;
+}
+
+.noptin-newsletter-form .noptin-form-field-wrapper {
+	margin-bottom: 10px;
+}
+
+.social-icons a {
+	background-color: transparent !important;
+	border: 1px solid #FFF;
+}
+
+.container-footer {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+.footer-paragraph {
+	color: #FFF;
+	text-align: center;
+}
+
+.footer-center {
+	text-align: center;
+	font-size: 16px !important;
+}
+
+.footer-right {
+	text-align: right;
+	font-size: 12px !important;
+}
+
+/* Fim das adaptações do footer */
+
+/* Media Query */
+@media screen and (max-width: 800px) {
+	.header-inner {
+		padding: 12px 0;
+		margin:  0 auto;
+	}
+
+	.wp-medium-4 {
+		width: 450px;
+	}
+}
